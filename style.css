@@ -1,0 +1,250 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+
+
+}
+
+body {
+    background-color: rgb(1, 11, 44);
+    color: aliceblue;
+
+}
+
+.head {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 22px;
+}
+
+main {
+    width: 50%;
+    margin: 20px auto;
+}
+
+.divinputs input {
+    font-size: 17px;
+    height: 67px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 9px;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+
+.divinputs label {
+    font-size: 20px;
+
+}
+
+#optionss {
+    font-size: 17px;
+    height: 50px;
+    border-radius: 9px;
+    margin-top: -10px;
+    margin-left: 5%;
+    text-align: center;
+    border: none;
+    outline: none;
+
+}
+
+.typepromotion {
+    font-size: 19px;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 2px auto;
+    margin-top: 30px;
+
+}
+
+.promotionradio {
+    display: flex;
+    gap: 50px;
+}
+
+.promotionradio input {
+    /* padding: 20px; */
+    margin-top: -20px;
+
+}
+
+.padding-betwen {
+    display: flex;
+    gap: 30px;
+
+}
+
+.pros {
+    display: flex;
+    text-align: center;
+    margin-left: 30%;
+    font-size: 19px;
+}
+
+#submit {
+    font-size: 19px;
+    width: 40%;
+    height: 67px;
+    margin: 30px 30%;
+    background-color: rgb(107, 78, 238);
+    border: 1px solid white;
+    border-radius: 11px;
+    color: aliceblue;
+    transition: 1s;
+    text-transform: uppercase;
+
+}
+
+#submit:hover {
+    background-color: rgb(89, 0, 255);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+table {
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    margin: 10px auto;
+}
+
+
+.alltablestuff {
+    width: 80%;
+    margin: 20px auto;
+}
+
+
+thead td {
+    font-size: 20px;
+    padding: 13px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(38, 39, 49);
+    border-radius: 2px;
+    font-size: 19px;
+    font-weight: bold;
+
+}
+
+tbody th {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(3, 17, 16);
+    background-color: rgb(172, 172, 172);
+    padding: 4px;
+
+}
+
+.btn {
+    /* height: px; */
+    background-color: rgb(31, 0, 167);
+    border: 1px solid white;
+    border-radius: 11px;
+    color: aliceblue;
+    transition: 1s;
+
+    padding: 10px;
+    width: 100%;
+
+}
+
+.btn:hover {
+    letter-spacing: 1px;
+    box-shadow: rgb(90, 90, 90) 0px 20px 30px -10px;
+}
+
+.result1 {
+    height: 30px;
+    width: 20%;
+}
+
+.resultsunderinputs {
+    height: 30px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+
+
+}
+
+#delete {
+
+    background-color: red;
+}
+
+#edit {
+    background-color: rgb(1, 156, 60);
+}
+
+
+
+.card {
+    display: none;
+    position: fixed;
+    /* position: relative; */
+    top: 265px;
+    left: 35%;
+    border-radius: 6px;
+    height: 250px;
+    width: 28%;
+    background-color: rgb(1, 30, 125);
+    text-align: center;
+
+}
+.card h2 {
+  padding: 20px;
+}
+.two-button {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.two-button button:first-child {
+    background-color: rgb(97, 161, 0);
+    border: 1px solid white;
+    border-radius: 11px;
+    color: aliceblue;
+    transition: 1s;
+    padding: 10px;
+    width: 25%;
+
+}
+.two-button button:last-child {
+    background-color: rgb(255, 0, 51);
+    border: 1px solid white;
+    border-radius: 11px;
+    color: aliceblue;
+    transition: 1s;
+    padding: 10px;
+    width: 30%;
+
+}
+@media only screen and (max-width: 900px) {
+    .card {
+        display: none;
+        position: fixed;
+        /* position: relative; */
+        top: 265px;
+        left: 25%;
+        border-radius: 6px;
+        height: 250px;
+        width: 58%;
+        background-color: rgb(1, 30, 125);
+        text-align: center;
+    
+    }
+    .card h2 {
+        padding: 15px;
+      }
+      .alltablestuff {
+        
+        margin-left: 0;
+    }
+    
+   
+  }
